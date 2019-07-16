@@ -1,0 +1,21 @@
+{
+    "name": "vladimirardelean/yii2-twigi18n",
+    "description": "I18n Twig Extension for Yii2",
+    "keywords": ["yii2","i18n","twig"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Ardelean",
+            "email": "ardelean.vladimir@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-twig": "^2.2"
+    },
+    "autoload": {
+        "psr-4": { "Twig\\Extensions\\": "src/" }
+    }
+}
